@@ -38,7 +38,7 @@ public class StudentManagementSystem {
                     double grade=input.nextDouble();
 
                     students.add(new Student(id,name,grade));
-                    System.out.println("Student added succcessfully!");
+                    System.out.println("Student added successfully!");
                     break;
                 case 2:
                     System.out.println("\n---Student List---");
