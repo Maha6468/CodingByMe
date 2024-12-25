@@ -18,18 +18,29 @@ class SumofNNumber{
     }
 }
 
-
 public class Recursion123 {
     public static void main(String[] args) {
         Scanner input=new Scanner (System.in);
-       /* FactorialDemo ob= new FactorialDemo();
-        int result=ob.fact(5);
-        System.out.println("Factorial of  5: "+result);*/
+        String continueProgram;
 
-        SumofNNumber ob=new SumofNNumber();
-        System.out.print("How many number you want to sum: ");
-        int m= input.nextInt();
-        int result=ob.sum(m);
-        System.out.println("Sum from  "+m+ "number: "+result);
+       /*do{
+       FactorialDemo ob= new FactorialDemo();
+        int result=ob.fact(5);
+        System.out.println("Factorial of  5: "+result);
+
+        System.out.println("Do you want to perform another calculation? (y/n:) " );
+            continueProgram=input.next();}*/
+
+        do {
+            SumofNNumber ob = new SumofNNumber();
+            System.out.print("How many number you want to sum: ");
+            int m = input.nextInt();
+            int result = ob.sum(m);
+            System.out.println("Sum from " + m + " number: " + result);
+            System.out.println("Do you want to perform another calculation? (y/n:) " );
+            continueProgram=input.next();
+        }
+        while (continueProgram.equalsIgnoreCase("y"));
+        System.out.println("Program terminated");
     }
 }
