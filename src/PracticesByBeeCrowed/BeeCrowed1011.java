@@ -2,7 +2,7 @@ package PracticesByBeeCrowed;
 
 import java.util.Scanner;
 
-public class BeCrowed1011 {
+public class BeeCrowed1011 {
     public static void main(String[] args) {
         Scanner input=new Scanner (System.in);
         float R=input.nextFloat();
