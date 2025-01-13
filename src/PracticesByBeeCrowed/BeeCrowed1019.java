@@ -8,8 +8,8 @@ public class BeeCrowed1019 {
         int N = input.nextInt();
         int H= N/3600;;
         int M=(N%3600)/60;
-        //int S=((N%3600)/60)%60;     //formula ta confuse
-        int S=N%60;
+        //int S=N%60;     //formula ta confuse
+        int S=(N%3600)%60;
         System.out.println(H+":"+M+":"+S);
 
 
