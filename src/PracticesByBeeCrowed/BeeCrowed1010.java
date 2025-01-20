@@ -16,7 +16,7 @@ public class BeeCrowed1010 {
    // int n2=input.nextInt();
     price2=(price2*units2);
     float price=price1+price2;
-    System.out.printf("VALOR A PAGAR : R$ %.2f\n",price);
+    System.out.printf("VALOR A PAGAR: R$ %.2f\n",price);
 
 
     }
