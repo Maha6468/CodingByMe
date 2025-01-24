@@ -8,12 +8,12 @@ public class ArrayForLoop {
         int [] arr={10,20,30,40,50,60};
         int sum=0;
         for(int i=0;i<arr.length;i++){
-            System.out.println("Index "+i+" : "+arr[i]);
+            System.out.println("Index "+i+" : "+arr[i]); //Index number show
             sum+=arr[i];
         }
-        System.out.println(sum);
+        System.out.println(sum);                //sum
         System.out.print("\n");
-        for(int num:arr){
+        for(int num:arr){                       //some same
             System.out.println(num);
             sum+=num;
         }
