@@ -8,7 +8,7 @@ public class AscendingAndDescendingArray {
     public static void main(String[] args) {
         Scanner input=new Scanner(System.in);
         int[] arr={30,15,5,40,22};
-        Integer[] arr1={55,34,10,2,40};
+        Integer[] arr1={55,34,10,2,40};  //Int diye vul hoicilo
         Arrays.sort(arr);
         Arrays.sort(arr1, Collections.reverseOrder());
         System.out.print("Ascending array: ");
