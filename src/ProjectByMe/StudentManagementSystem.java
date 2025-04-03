@@ -40,23 +40,23 @@ public class StudentManagementSystem {
                     students.add(new Student(id,name,grade));
                     System.out.println("Student added successfully!");
                     break;
-                case 2:
-                    System.out.println("\n---Student List---");
-                    if(students.isEmpty()){
-                        System.out.println("No students available.");
-                    }
-                    else{
-                        for(Student student:students){
-                            student.display();
-                        }
-                    }
-                    break;
-                    case 3:
-                        System.out.println("Exiting the system.GoodBye!");
-                        break;
+                        case 2:
+                                System.out.println("\n---Student List---");
+                                 if(students.isEmpty()){
+                                  System.out.println("No students available.");
+                                 }
+                                else{
+                                    for(Student student:students){
+                                     student.display();
+                                     }
+                                    }
+                                 break;
+                                case 3:
+                                System.out.println("Exiting the system.GoodBye!");
+                                 break;
 
-                default:
-                    System.out.println("Invalid choice! Please try again.");
+                             default:
+                              System.out.println("Invalid choice! Please try again.");
             }
         }
         while(choice!=3);
